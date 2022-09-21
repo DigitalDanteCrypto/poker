@@ -4,7 +4,8 @@
 Dealer::Dealer() {
 
     for(int i = 0 ; i < PLAYERS ; i++) {
-        _players.emplace_back(Player());
+        std::string newName = _NAME_TABLE[i];
+        _players.emplace_back(Player(newName ));
     }
 _deck = Deck();
 

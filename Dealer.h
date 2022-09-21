@@ -11,6 +11,13 @@ class Dealer {
 private:
     Deck _deck;
     std::vector<Player> _players;
+    const std::vector<std::string> _NAME_TABLE = {
+            "John",
+            "Marcel",
+            "Nicolas",
+            "Patrick",
+            "Thomas",
+    };
 
 
     void distribute();

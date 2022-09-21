@@ -8,7 +8,7 @@ void Player::AddCard(Card card) {
 
 void Player::ToString() const {
 
-std::cout << " My player cards :" << "\n";
+std::cout << _playerName << " player cards :" << "\n";
 
 for(auto &card : _myHand) {
     card.ToString();
@@ -16,4 +16,10 @@ for(auto &card : _myHand) {
 
 
 
-};
+}
+
+Player::Player(std::string playerName) {
+ _playerName = playerName;
+}
+
+

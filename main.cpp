@@ -3,8 +3,10 @@
 #include "Dealer.h"
 
 int main() {
-    Dealer dealer;
+   Dealer dealer;
     dealer.StartGame();
+
+
 
 
 
