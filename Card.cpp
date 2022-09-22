@@ -63,3 +63,23 @@ void Card::ToString() const {
     std::cout << Card::valueToString() << " Of " << Card::suitToString();
     std::cout << "\n";
 }
+
+
+
+// Sort hand classic
+bool Card::compareCardValues(Card A, Card B) {
+    if (A._values < B._values) {
+        return true;
+
+    } else {
+        return false;
+    }
+}
+
+Values Card::getValue() {
+    return _values;
+}
+
+Suits Card::getSuits() {
+    return _suits;
+}

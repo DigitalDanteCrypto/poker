@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
 #include "Card.h"
+#include "Pattern.h"
 
 class Player {
 
@@ -11,7 +12,16 @@ private :
     std::string _playerName;
 
 public:
-    Player(std::string playerName);
+    explicit Player(std::string playerName);
+    void sortHand();
     void AddCard(Card card);
-    void ToString() const;
+    void ToString();
+
+
+Pattern getPattern();
+
+
+
+
+
 };

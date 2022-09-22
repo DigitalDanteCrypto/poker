@@ -76,6 +76,12 @@ build CMakeFiles/poker.dir/Player.cpp.o: CXX_COMPILER__poker_Debug /Users/floria
   OBJECT_DIR = CMakeFiles/poker.dir
   OBJECT_FILE_DIR = CMakeFiles/poker.dir
 
+build CMakeFiles/poker.dir/Pattern.cpp.o: CXX_COMPILER__poker_Debug /Users/floriansecretan/Desktop/gamedev/poker/Pattern.cpp || cmake_object_order_depends_target_poker
+  DEP_FILE = CMakeFiles/poker.dir/Pattern.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/poker.dir
+  OBJECT_FILE_DIR = CMakeFiles/poker.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target poker
@@ -84,7 +90,7 @@ build CMakeFiles/poker.dir/Player.cpp.o: CXX_COMPILER__poker_Debug /Users/floria
 #############################################
 # Link the executable poker
 
-build poker: CXX_EXECUTABLE_LINKER__poker_Debug CMakeFiles/poker.dir/main.cpp.o CMakeFiles/poker.dir/Card.cpp.o CMakeFiles/poker.dir/Deck.cpp.o CMakeFiles/poker.dir/Dealer.cpp.o CMakeFiles/poker.dir/Player.cpp.o
+build poker: CXX_EXECUTABLE_LINKER__poker_Debug CMakeFiles/poker.dir/main.cpp.o CMakeFiles/poker.dir/Card.cpp.o CMakeFiles/poker.dir/Deck.cpp.o CMakeFiles/poker.dir/Dealer.cpp.o CMakeFiles/poker.dir/Player.cpp.o CMakeFiles/poker.dir/Pattern.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/poker.dir
   POST_BUILD = :

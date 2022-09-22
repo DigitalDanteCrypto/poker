@@ -41,11 +41,15 @@ private:
 
 public:
 
+    Values getValue();
+    Suits getSuits();
+
 
     Card(Suits suits, Values values);
 
     void ToString() const;
 
+    static bool compareCardValues(Card A , Card B );
 
 };
 
