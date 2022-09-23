@@ -5,7 +5,6 @@
 
 class Player {
 
-
 private :
 
     std::vector<Card> _myHand;
@@ -17,11 +16,6 @@ public:
     void AddCard(Card card);
     void ToString();
 
-
 Pattern getPattern();
-
-
-
-
 
 };
