@@ -1,3 +1,4 @@
+#include <iostream>
 #include "Dealer.h"
 
 
@@ -32,6 +33,12 @@ void Dealer::StartGame() {
     for (Player &player: _players) {
         player.ToString();
     }
+
+}
+//Function non terminer
+void Dealer::getWinner() {
+    Player selectedWinner = _players[0];
+
 
 }
 

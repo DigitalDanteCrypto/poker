@@ -32,5 +32,8 @@ public:
     //Game controller
     void StartGame();
 
+    //Get a Winner (beta)
+    void getWinner();
+
 
 };
