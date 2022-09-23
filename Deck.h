@@ -6,6 +6,7 @@
 class Deck {
 
 private:
+    //List of cards
     std::vector<Card> _cards;
 
 

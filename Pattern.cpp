@@ -1,6 +1,8 @@
-
 #include "Pattern.h"
 
+
+
+//We string the pattern of the playerCards to print it
 std::string Pattern::patternToString() {
    switch(PatternValue) {
        case Patterns::HIGHCARD:

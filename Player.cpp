@@ -37,7 +37,7 @@ Player::Player(std::string playerName) {
 }
 
 
-// Get Pattern of the 5 Cards
+// Get Pattern of the 5 Cards for each player
 Pattern Player::getPattern() {
     Pattern result = Pattern();
 
@@ -89,8 +89,6 @@ Pattern Player::getPattern() {
                 }
 
             }
-
-
 
 
         return result;

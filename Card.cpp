@@ -1,11 +1,15 @@
 #include <iostream>
 #include "Card.h"
 
+
+//Defining Constructor
 Card::Card(Suits suits, Values values) {
     _suits = suits;
     _values = values;
 }
 
+
+//Function to string the cards to make them string
 std::string Card::suitToString() const {
     switch (_suits) {
         case Suits::CLUBS:
@@ -23,6 +27,8 @@ std::string Card::suitToString() const {
     return "undefined";
 }
 
+
+//We string the values of the card
 std::string Card::valueToString() const {
     switch (_values) {
         case Values::TWO:
@@ -58,15 +64,17 @@ std::string Card::valueToString() const {
     return "ERROR ";
 }
 
-void Card::ToString() const {
 
+
+//We print out the 2 functions of the toString
+void Card::ToString() const {
     std::cout << Card::valueToString() << " Of " << Card::suitToString();
     std::cout << "\n";
 }
 
 
 
-// Sort hand classic
+//We compare the values and return it as a boolean for another function
 bool Card::compareCardValues(Card A, Card B) {
     if (A._values < B._values) {
         return true;
@@ -76,6 +84,8 @@ bool Card::compareCardValues(Card A, Card B) {
     }
 }
 
+
+//Simple get Functions
 Values Card::getValue() {
     return _values;
 }

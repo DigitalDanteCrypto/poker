@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
 
+
+//We make Enum of the Suits and Values
 enum class Suits {
     HEARTS,
     CLUBS,
@@ -42,16 +44,19 @@ private:
 public:
 
 
-
+//Get values functions
     Values getValue();
+
     Suits getSuits();
 
-
+//Constructor
     Card(Suits suits, Values values);
 
+
+    //ToString Function
     void ToString() const;
 
-    static bool compareCardValues(Card A , Card B );
+    static bool compareCardValues(Card A, Card B);
 
 };
 
