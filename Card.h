@@ -41,6 +41,8 @@ private:
 
 public:
 
+
+
     Values getValue();
     Suits getSuits();
 

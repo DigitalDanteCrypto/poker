@@ -44,11 +44,11 @@ std::string Card::valueToString() const {
         case Values::TEN:
             return "10";
         case Values::JACK:
-            return "11";
+            return "Jack";
         case Values::QUEEN:
-            return "12";
+            return "Queen";
         case Values::KING:
-            return "13";
+            return "King";
         case Values::ACE:
             return "Ace";
         case Values::endValues:

@@ -6,7 +6,6 @@ std::string Pattern::patternToString() {
        case Patterns::HIGHCARD:
            return "Highcard";
 
-
        case Patterns::PAIR:
            return "Pair";
 
@@ -43,3 +42,4 @@ std::string Pattern::patternToString() {
            break;
    }
 }
+

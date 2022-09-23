@@ -4,9 +4,6 @@
 class Pattern {
 
 
-
-
-
 public:
 
 
@@ -24,7 +21,6 @@ public:
 
 
     Patterns PatternValue;
-
 
 
 
